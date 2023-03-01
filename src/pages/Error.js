@@ -12,7 +12,7 @@ const Error = () => {
                 <p>Please check the URL, it may have been typed incorrectly.</p>    
             </main>
         </>
-    )
+    );
 }
 
 export default Error;

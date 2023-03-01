@@ -20,7 +20,7 @@ const HomePage = () => {
                 <button type='submit'>Submit</button>
             </form>
         </>
-    )
+    );
 }
 
 export default HomePage;
