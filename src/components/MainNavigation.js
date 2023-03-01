@@ -11,7 +11,7 @@ const MainNavigation = () => {
                         <NavLink to='/' className={({isActive}) => isActive ? styles.active : undefined}>Home</NavLink>
                     </li>
                     <li>
-                        <NavLink to='/products' className={({isActive}) => isActive ? styles.active : undefined}>Products</NavLink>
+                        <NavLink to='products' className={({isActive}) => isActive ? styles.active : undefined}>Products</NavLink>
                     </li>
                 </ul>
             </nav>

@@ -6,13 +6,13 @@ const HomePage = () => {
     const navigate = useNavigate();
 
     const navigateHandler = () => {
-        navigate('/products');
+        navigate('products');
     }
 
     return (
         <>
             <h1>Home Page</h1>
-            <p> Go to <Link to='/products'> products page </Link></p>
+            <p> Go to <Link to='products'> products page </Link></p>
 
             <form onSubmit={navigateHandler}>
                 <label>Name</label>

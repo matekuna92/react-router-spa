@@ -16,9 +16,9 @@ const Products = () => {
             <h1>Products</h1>
             <ul>
                 {PRODUCTS.map(product => (
-                    <li 
+                    <li     
                         key={product.id}>
-                        <Link to={`/products/${product.id}`}> {product.title} </Link> </li>
+                        <Link to={product.id}> {product.title} </Link> </li>
                 ))}
             </ul>
         </>
